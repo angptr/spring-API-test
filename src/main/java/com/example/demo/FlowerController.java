@@ -55,5 +55,4 @@ public class FlowerController {
 	public Flower updateFlowerById(@RequestBody Flower flower, @PathVariable("id") Long id) {		
 		return service.updateFlower(id, flower);
 	}
-	
 }
